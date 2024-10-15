@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Responsive Personal Portfolio Website </title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Basit</a>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar ">
+      <div>
+        <a href="#" class="active"> Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Here section center  -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, Myself</h1>
+      <h1>Basit Ali</h1>
+      <h3>And I'm a <span class="multiple-text">Frontend Web Developer</span></h3>
+      <p>I am a passionate frontend web developer with a knack for crafting robust and scalable web applications. I have experience in **Artificial Intelligence** and **Machine Learning**, leveraging tools like **Python**, **NumPy**, and **pandas** for data manipulation and analysis. I specialize in **Data Cleaning**, **Data Analytics**, and **Data Visualization** using **Matplotlib** and **Microsoft Power BI** to create insightful reports. I am skilled in **Data Analysis** and use **Data Analytics & Visualization Software** to generate actionable insights. Additionally, I am familiar with **Front-End Development**, **WordPress**, **GitHub** for version control, and advanced **Spreadsheet Skills** for data handling.</p>
+      <div class="social-media">
+        <a href="https://www.instagram.com/basitali6599/"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+        <a href="https://github.com/ImBasitAli"><i class="fa-brands fa-github"></i></a>
+        <a
+          href="https://www.linkedin.com/in/basit-ali-2902aa333/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+      <a href="https://drive.google.com/?authuser=0" id="btn"> Download cv</a>
+    </div>
+
+    <div class="home-img">
+      <img src="./images/b1.jpg" alt="Basit img">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="./images/b2.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">ABOUT <span>Me</span></h2>
+      <h3>Data Analytics</h3>
+      <p> I have solid experience working with **Artificial Intelligence** and **Machine Learning**, using **Python** and libraries like **NumPy**, **pandas**, and **Matplotlib** for data analysis and visualization. I am skilled in **Data Cleaning** and have a strong foundation in **Data Analytics**. I use **Microsoft Power BI** and **Data Visualization** tools to create insightful reports and dashboards.
+
+        I have hands-on experience with **GitHub** for version control and collaboration in coding projects. Additionally, I possess **Front-End Development** skills and have worked on **WordPress** to manage and customize websites. My **Spreadsheet Skills** enhance my ability to handle and analyze data efficiently.</p>
+      <a href="https://github.com/ImBasitAli/Portfolio.git" id="btn">Read more</a>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="./images/p1.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Power BI</h4>
+          <p>This is my Power BI hospital-diagnosis project using data visualization.</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="./images/img1.webp" alt="">
+        <div class="portfolio-layer">
+          <h4>Real Time Chat App</h4>
+          <p>This is a realtime chat application as a full stack developer.</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="./images/img2.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Wordpress Website</h4>
+          <p>This is a Wordpress Website as a Wordpress developer.</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="./images/img3.webp" alt="">
+        <div class="portfolio-layer">
+          <h4>Blog Website</h4>
+          <p>Here is a Blog Website as a full stack developer.</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="./images/img4.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Machine Learning</h4>
+          <p>This is a Machine Learning project as a data analyst.</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="./images/img5.webp" alt="">
+        <div class="portfolio-layer">
+          <h4>Code Editer</h4>
+          <p>This is a Code Editer as a full stack developer.</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Contact form design  -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+  
+      <form action="https://formsubmit.co/basit2751442@gmail.com" method="POST">
+          <div class="input-box">
+              <input type="text"  name="Name" placeholder="Enter Your Name" required>
+              <input type="email"  name="Email" placeholder="Enter Your Email" required>
+          </div>
+          <div class="input-box">
+              <input type="number"  name="Mobile" placeholder="Enter Your Mobile Number" required>
+              <input type="text"  name="Subject" placeholder="Subject" required>
+          </div>
+          <textarea  name="Message"
+          cols="30" rows="10" placeholder="Your Message" required></textarea>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+
+          <button type="submit"  id="btn">Send Message</button>
+      </form>
+  </section>
+  
+
+    <!-- Footer design  -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by @basitali | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="./index.html"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <!-- Font style  -->
+  <script src="https://kit.fontawesome.com/b4b007f3b9.js" crossorigin="anonymous" defer></script>
+  <!-- Scroll Reveal js -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Typed Js  -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Main Js  -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
